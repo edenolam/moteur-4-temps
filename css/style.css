@@ -1,0 +1,157 @@
+.titre_principal h1
+{
+	color: rgb(223, 213, 213);
+	text-align: center;
+	text-decoration: underline;
+}
+h2
+{
+ 	color: #FFFFFF;
+ 	clear:  right;
+	 text-decoration: underline;
+}
+h2+p
+{
+	font-family: arial,sans-serif;
+	color: rgb(0,213,53);
+	font-size: 1em;
+	
+}
+a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+  }
+  
+.nav li {
+	float: left;
+  }
+  
+.nav  li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+ .nav li a:hover {
+	background-color: #111;
+  }
+body
+{
+	background-image: url(../img/road.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: 'Roboto', sans-serif;
+	margin: 0 auto;
+}
+.imageflottante
+{
+	float: left;
+}
+.container
+{
+	width: 900px;
+	margin: auto;
+}
+
+.moteur img{
+	width: 200px;
+}
+footer{
+	background-color: black;
+	height: 200px;
+	display: block;
+	margin: 0 auto;
+	
+}
+
+footer ul li{
+	display: inline;
+
+}
+
+footer ul{
+	text-align: center;
+	padding-top: 100px;
+}
+/* .cycles{
+	float: left;
+} */
+.culasse{
+	float: left;
+}
+.culasse p{
+	width: 700px;
+}
+.piece img{
+	width: 300px;
+	display: list-item;
+}
+
+
+/*****************************technique*********************************/
+.image-explication{
+	float: left;
+}
+.explication{
+	display: inline-flex;
+	margin: 10px;
+	background-color : #ccc;
+	padding: 10px;
+	width: 100%;
+}
+
+.titre_fonctionement{
+	text-align: center;
+}
+
+.piece_mecanique ul li{
+	list-style-type: none;
+	margin-top: 20px;
+}
+
+/*****************************pieces*********************************/
+.image-explication{
+	float: left;
+}
+
+.explication ul li{
+	list-style-type: none;
+	padding: 21px;
+	margin-left: 100px;
+}
+
+.titre_fonctionement{
+	text-align: center;
+}
+
+.piece_mecanique{
+	display: inline-flex;
+	margin: 10px;
+	background-color : #ccc;
+	padding: 10px;
+	width: 100%;
+}
+.piece_mecanique p{
+	display: flex;
+	align-items: center ;
+	padding: 20px;
+	color: #000;
+	
+}
+
+footer{
+
+}
+
+
+
+
