@@ -16,27 +16,16 @@ body {
     color: rgb(223, 213, 213);
     text-align: center;
     text-decoration: underline;
+    font-family: 'Oswald', serif;
 
 }
 
 h2 {
-    color: #FFFFFF;
-    clear: right;
-    text-decoration: underline;
+    color: rgb(223, 213, 213);
 }
 
-h2 + p {
-    font-family: arial, sans-serif;
-    color: rgb(213, 209, 224);
-    font-size: 1em;
-}
 
-.histoire {
-    border: 3px solid rgb(34, 33, 33);
-    background-color: rgba(73, 75, 77, 0.9);
-    padding: 7px 6px 4px;
-    text-align: justify;
-}
+
 
 a {
     color: #FFFFFF;
@@ -78,18 +67,23 @@ a {
     background-color: #111;
 }
 
-/*******************************/
+/**************Biographie*****************/
+
+.histoire {
+    border: 3px solid rgb(34, 33, 33);
+    background-color: rgba(73, 75, 77, 0.9);
+    padding: 10px;
+    text-align: justify;
+}
+
+.histoire p{
+    color: #cccccc;
+}
+
+/**********************************************/
 
 .moteur img {
     width: 200px;
-}
-
-.culasse {
-    float: left;
-}
-
-.culasse p {
-    width: 700px;
 }
 
 .piece img {
@@ -136,28 +130,22 @@ a {
     text-align: center;
 }
 
-.piece_mecanique-technique {
-    display: inline-flex;
-    background-color: #ccc;
-    width: 100%;
-    margin-bottom: 10px;
-}
-
-.piece_mecanique-technique li {
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    color: #000;
 
 
-}
 
 .piece_mecanique {
     display: inline-flex;
     background-color: #ccc;
     width: 100%;
-    padding: 10px;
-    margin: 10px;
+    padding: 10px 0;
+    margin: 10px 0;
+}
+
+.piece_mecanique li {
+    display: flex;
+    align-items: center;
+    color: #000;
+    padding: 30px 0;
 }
 
 .piece_mecanique p {
@@ -171,7 +159,8 @@ a {
 /**********iframe**********************/
 
 .video {
-    margin-bottom: 100px;
+    margin-bottom: 200px;
+    width: 100%;
 }
 
 
@@ -180,6 +169,7 @@ a {
 .about_me {
     background-color: #cccccc;
     padding: 10px;
+    margin-top: 10px;
     opacity: 0.7;
 }
 
