@@ -1,156 +1,277 @@
-.titre_principal h1
-{
-	color: rgb(223, 213, 213);
-	text-align: center;
-	text-decoration: underline;
+body {
+    background-image: url(../img/road.png);
+    background-repeat: round;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
 }
-h2
-{
- 	color: #FFFFFF;
- 	clear:  right;
-	 text-decoration: underline;
+
+.container {
+    width: 1200px;
+    margin: 80px auto 100px;
 }
-h2+p
-{
-	font-family: arial,sans-serif;
-	color: rgb(0,213,53);
-	font-size: 1em;
-	
+
+.titre_principal h1 {
+    color: rgb(223, 213, 213);
+    text-align: center;
+    text-decoration: underline;
+
 }
-a{
-	color: #FFFFFF;
-	text-decoration: none;
+
+h2 {
+    color: #FFFFFF;
+    clear: right;
+    text-decoration: underline;
 }
+
+h2 + p {
+    font-family: arial, sans-serif;
+    color: rgb(213, 209, 224);
+    font-size: 1em;
+}
+
+.histoire {
+    border: 3px solid rgb(34, 33, 33);
+    background-color: rgba(73, 75, 77, 0.9);
+    padding: 7px 6px 4px;
+    text-align: justify;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/**************navigation*********************/
+
+.nav {
+    background-color: black;
+    position: fixed;
+    float: left;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+}
+
 .nav ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-  }
-  
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
 .nav li {
-	float: left;
-  }
-  
-.nav  li a {
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-  }
-  
- .nav li a:hover {
-	background-color: #111;
-  }
-body
-{
-	background-image: url(../img/road.png);
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-	font-family: 'Roboto', sans-serif;
-	margin: 0 auto;
-}
-.imageflottante
-{
-	float: left;
-}
-.container
-{
-	width: 900px;
-	margin: auto;
+    float: left;
 }
 
-.moteur img{
-	width: 200px;
-}
-footer{
-	background-color: black;
-	height: 200px;
-	display: block;
-	margin: 0 auto;
-	
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-footer ul li{
-	display: inline;
-
+.nav li a:hover {
+    background-color: #111;
 }
 
-footer ul{
-	text-align: center;
-	padding-top: 100px;
+/*******************************/
+
+.moteur img {
+    width: 200px;
 }
-/* .cycles{
-	float: left;
-} */
-.culasse{
-	float: left;
+
+.culasse {
+    float: left;
 }
-.culasse p{
-	width: 700px;
+
+.culasse p {
+    width: 700px;
 }
-.piece img{
-	width: 300px;
-	display: list-item;
+
+.piece img {
+    min-width: 300px;
+    min-height: 300px;
+    display: list-item;
 }
 
 
 /*****************************technique*********************************/
-.image-explication{
-	float: left;
-}
-.explication{
-	display: inline-flex;
-	margin: 10px;
-	background-color : #ccc;
-	padding: 10px;
-	width: 100%;
+.image-explication {
+    float: left;
 }
 
-.titre_fonctionement{
-	text-align: center;
+.explication {
+    display: inline-flex;
+    margin: 10px;
+    background-color: #ccc;
+    padding: 10px;
+    width: 100%;
 }
 
-.piece_mecanique ul li{
-	list-style-type: none;
-	margin-top: 20px;
+.titre_fonctionement {
+    text-align: center;
+}
+
+.piece_mecanique ul li {
+    list-style-type: none;
+    margin-top: 20px;
 }
 
 /*****************************pieces*********************************/
-.image-explication{
-	float: left;
+.image-explication {
+    float: left;
 }
 
-.explication ul li{
-	list-style-type: none;
-	padding: 21px;
-	margin-left: 100px;
+.explication ul li {
+    list-style-type: none;
+    padding: 21px;
+    margin-left: 100px;
 }
 
-.titre_fonctionement{
-	text-align: center;
+.titre_fonctionement {
+    text-align: center;
 }
 
-.piece_mecanique{
-	display: inline-flex;
-	margin: 10px;
-	background-color : #ccc;
-	padding: 10px;
-	width: 100%;
-}
-.piece_mecanique p{
-	display: flex;
-	align-items: center ;
-	padding: 20px;
-	color: #000;
-	
+.piece_mecanique-technique {
+    display: inline-flex;
+    background-color: #ccc;
+    width: 100%;
+    margin-bottom: 10px;
 }
 
-footer{
+.piece_mecanique-technique li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: #000;
+
 
 }
+
+.piece_mecanique {
+    display: inline-flex;
+    background-color: #ccc;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.piece_mecanique p {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    color: #000;
+}
+
+
+/**********iframe**********************/
+
+.video {
+    margin-bottom: 100px;
+}
+
+
+/*************a propos et contact******************/
+
+.about_me {
+    background-color: #cccccc;
+    padding: 10px;
+    opacity: 0.7;
+}
+
+.about_me p {
+    margin: 5%;
+    color: #000000;
+}
+
+.info_contact {
+    display: flex;
+    width: 100%;
+}
+
+.map {
+    width: 70%;
+    float: left;
+    margin:10px 5px 0 0;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color: rgb(248, 230, 195);
+    float: left;
+    width: 30%;
+    margin:10px 0 0 5px;
+}
+
+.card h2 {
+    color: #2f2f2f;
+}
+
+.card p {
+    color: #2f2f2f;
+    margin: 40px;
+
+}
+
+.card a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+.title {
+    color: rgb(61, 57, 58);
+    font-size: 18px;
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+
+
+button:hover, a:hover {
+    opacity: 0.7;
+}
+
+.contact_button a {
+    color: blanchedalmond;
+}
+
+
+/**********footer**********************/
+
+footer {
+    background-color: rgb(39, 38, 38);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    padding: 30px;
+
+}
+
+footer ul li {
+    display: inline;
+
+}
+
+
 
 
 
