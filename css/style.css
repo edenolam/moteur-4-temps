@@ -110,10 +110,7 @@ a {
     text-align: center;
 }
 
-.piece_mecanique ul li {
-    list-style-type: none;
-    margin-top: 20px;
-}
+
 
 /*****************************pieces*********************************/
 .image-explication {
@@ -137,8 +134,11 @@ a {
     display: inline-flex;
     background-color: #ccc;
     width: 100%;
-    padding: 10px 0;
     margin: 10px 0;
+}
+
+.piece_mecanique ul li {
+    list-style-type: none;
 }
 
 .piece_mecanique li {
